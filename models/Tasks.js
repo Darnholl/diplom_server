@@ -19,7 +19,7 @@ const schema = new Schema(
       required: false,
     },
     // к кому привязаны задачи
-    pageId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
   },
   {
     timestamps: true,

@@ -14,9 +14,6 @@ const schema = new Schema(
       type: String,
       required: true,
     },
-    tasks: {
-      type: Array,
-    },
   },
   {
     timestamps: true,
